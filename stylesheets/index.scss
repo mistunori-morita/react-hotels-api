@@ -1,0 +1,13 @@
+$bg: #eee;
+$texc: #444;
+
+body{
+  background: $bg;
+  color: $texc;
+}
+
+@import 'reset';
+@import 'App';
+@import 'SearchForm';
+@import 'GeocodeResult';
+@import 'Map';
