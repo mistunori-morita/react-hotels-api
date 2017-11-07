@@ -1,9 +1,11 @@
 $bg: #eee;
 $texc: #444;
+$base-margin: 20px;
 
 body{
   background: $bg;
   color: $texc;
+  margin: 0;
 }
 
 @import 'reset';

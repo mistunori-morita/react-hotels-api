@@ -1,9 +1,19 @@
 .app{
-  width: 600px;
-  margin: 0 auto;
+  width: 750px;
+  margin: 40px auto 0;
+  display: flex;
+}
+
+.left-navi{
+  list-style-type: none;
+  padding: 0;
+  margin-right: $base-margin;
+  padding: $base-margin;
+  border-right: 1px solid #ccc;
 }
 
 .app-title{
+  margin-top: 0;
   text-align: center;
 }
 
